@@ -1,226 +1,272 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>Carousel Template · Bootstrap v5.0</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.84.0">
+  <title>Carousel Template · Bootstrap v5.0</title>
 
-    <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
+
+  <!-- Bootstrap core CSS -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
       }
+    }
+  </style>
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
 
-    
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-  </head>
-  <body>
-    
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">gameX</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">gameX</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pagina 2/pagina2.html">pagina 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+          </svg> <img src="../imagenes/gfnaf1.gif" class="d-block w-100" alt="Juego destacado">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>five night at freddys</h1>
+              <p>Un problemático guardia de seguridad empieza a trabajar en la pizzería Freddy Fazbear's. Mientras pasa
+                su primera noche en el trabajo, se da cuenta de que el turno de noche en Freddy's no será tan fácil de
+                sobrellevar.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+          </svg> <img src="../imagenes/gfnaf2.gif" class="d-block w-100" alt="Juego destacado">
+
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>five night at freddys 2</h1>
+              <p>1987, tras una vida inestable, Jeremy Fitzgerald encontró trabajo como guardia en la nueva pizzería
+                Freddy's Fazbear, pero al entrar descubriría que no todo es lo que parece.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+          </svg> <img src="../imagenes/gfnaf3.gif" class="d-block w-100" alt="Juego destacado">
+
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>five night at freddys 3</h1>
+              <p>Los propietarios decidieron ingresar a la última ubicación cerrada de Freddy Fazbear's Pizza para
+                encontrar cualquier cosa que pudiera haber sobrevivido a décadas de abandono y ruina, haciendo todo lo
+                posible para encontrar algo que pudiera usarse en la atracción por realismo.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../pagina 2/pagina2.html">pagina 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </nav>
-</header>
-
-<main>
-
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <svg class="bd-placeholder-img"  width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> <img src="../imagenes/portada1.jpg" class="d-block w-100" alt="Juego destacado">
-
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>five night at freddys</h1>
-            <p>Un problemático guardia de seguridad empieza a trabajar en la pizzería Freddy Fazbear's. Mientras pasa su primera noche en el trabajo, se da cuenta de que el turno de noche en Freddy's no será tan fácil de sobrellevar.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">ver mas</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img"  width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> <img src="../imagenes/portada2.jpg" class="d-block w-100" alt="Juego destacado">
 
 
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>five night at freddys 2</h1>
-            <p>1987, tras una vida inestable, Jeremy Fitzgerald encontró trabajo como guardia en la nueva pizzería Freddy's Fazbear, pero al entrar descubriría que no todo es lo que parece.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">ver mas</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img"  width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> <img src="../imagenes/portada3.jpg" class="d-block w-100" alt="Juego destacado">
-
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>five night at freddys 3</h1>
-            <p>Los propietarios decidieron ingresar a la última ubicación cerrada de Freddy Fazbear's Pizza para encontrar cualquier cosa que pudiera haber sobrevivido a décadas de abandono y ruina, haciendo todo lo posible para encontrar algo que pudiera usarse en la atracción por realismo.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">ver mas</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-
-  <!-- Marketing messaging and featurettes
+    <!-- Marketing messaging and featurettes
   ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
+    <div class="container marketing">
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4">
-        <img src="../imagenes/fnaf1.jpg" alt="Nombre del juego" width="140" height="140" class="rounded-circle mb-3">
-
-
-        <h2>lore fnaf 1</h2>
-        <p>Eres Mike Schmidt, el nuevo guardia de seguridad nocturno en Freddy Fazbear’s Pizza, un restaurante familiar con animatrónicos que entretienen a los niños durante el día.
-
-          Durante tus turnos de noche (cinco noches en total), notas que los animatrónicos (Freddy, Bonnie, Chica y Foxy) se mueven solos por el lugar… y si llegan a tu oficina, te matan. 
-          
-          La razón: los animatrónicos están programados para ver a cualquier persona fuera de su traje como un "endoesqueleto sin disfraz", y tratarán de meterte a la fuerza en uno de sus trajes, lo cual te mataría.
-          
-          Un tipo que te llama por teléfono (conocido como Phone Guy) te da pistas sobre lo que está pasando.</p>
-        <p><a class="btn btn-secondary" href="">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img src="../imagenes/fnaf2.jpg" alt="Nombre del juego" width="140" height="140" class="rounded-circle mb-3">
-
-        <h2>lore fnaf 2</h2>
-        <p>Five Nights at Freddy’s 2 es una precuela ambientada en 1987, donde el jugador es un guardia nocturno que debe sobrevivir mientras animatrónicos nuevos y antiguos intentan atacarlo. La historia revela que un asesino conocido como el Hombre Morado mató a varios niños y escondió sus cuerpos dentro de los animatrónicos, cuyas almas los poseen. La Marioneta juega un papel clave al darles "vida". El juego también insinúa el infame incidente de la "Mordida del 87", y muestra cómo la pizzería, a pesar de renovarse, sigue marcada por tragedias y sucesos paranormales.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <img src="../imagenes/fnf3.jpg" alt="Nombre del juego" width="140" height="140" class="rounded-circle mb-3">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="../imagenes/fnaf1.jpg" alt="Nombre del juego" width="140" height="140" class="rounded-circle mb-3">
 
 
-        <h2>lore fanf 3</h2>
-        <p>En Five Nights at Freddy’s 3, la historia se sitúa 30 años después del cierre del local original, cuando un nuevo lugar llamado Fazbear's Fright: The Horror Attraction abre sus puertas como una especie de museo del terror basado en los eventos pasados de Freddy Fazbear's Pizza. Allí, el jugador enfrenta a Springtrap, el único animatrónico real del juego, que en realidad contiene el cadáver de William Afton, el asesino de niños, atrapado en un traje con mecanismos defectuosos. A lo largo del juego, se revelan detalles del pasado a través de minijuegos retro, y si se cumplen ciertos requisitos, se desbloquea el "final bueno", en el que las almas de los niños finalmente encuentran la paz.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
+          <h2>lore fnaf 1</h2>
+          <p>Eres Mike Schmidt, el nuevo guardia de seguridad nocturno en Freddy Fazbear’s Pizza, un restaurante
+            familiar con animatrónicos que entretienen a los niños durante el día.
+
+            Durante tus turnos de noche (cinco noches en total), notas que los animatrónicos (Freddy, Bonnie, Chica y
+            Foxy) se mueven solos por el lugar… y si llegan a tu oficina, te matan.
+
+            La razón: los animatrónicos están programados para ver a cualquier persona fuera de su traje como un
+            "endoesqueleto sin disfraz", y tratarán de meterte a la fuerza en uno de sus trajes, lo cual te mataría.
+
+            Un tipo que te llama por teléfono (conocido como Phone Guy) te da pistas sobre lo que está pasando.</p>
+          <p><a class="btn btn-secondary" href="">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="../imagenes/fnaf2.jpg" alt="Nombre del juego" width="140" height="140" class="rounded-circle mb-3">
+
+          <h2>lore fnaf 2</h2>
+          <p>Five Nights at Freddy’s 2 es una precuela ambientada en 1987, donde el jugador es un guardia nocturno que
+            debe sobrevivir mientras animatrónicos nuevos y antiguos intentan atacarlo. La historia revela que un
+            asesino conocido como el Hombre Morado mató a varios niños y escondió sus cuerpos dentro de los
+            animatrónicos, cuyas almas los poseen. La Marioneta juega un papel clave al darles "vida". El juego también
+            insinúa el infame incidente de la "Mordida del 87", y muestra cómo la pizzería, a pesar de renovarse, sigue
+            marcada por tragedias y sucesos paranormales.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="../imagenes/fnf3.jpg" alt="Nombre del juego" width="140" height="140" class="rounded-circle mb-3">
 
 
-    <!-- START THE FEATURETTES -->
+          <h2>lore fanf 3</h2>
+          <p>En Five Nights at Freddy’s 3, la historia se sitúa 30 años después del cierre del local original, cuando un
+            nuevo lugar llamado Fazbear's Fright: The Horror Attraction abre sus puertas como una especie de museo del
+            terror basado en los eventos pasados de Freddy Fazbear's Pizza. Allí, el jugador enfrenta a Springtrap, el
+            único animatrónico real del juego, que en realidad contiene el cadáver de William Afton, el asesino de
+            niños, atrapado en un traje con mecanismos defectuosos. A lo largo del juego, se revelan detalles del pasado
+            a través de minijuegos retro, y si se cumplen ciertos requisitos, se desbloquea el "final bueno", en el que
+            las almas de los niños finalmente encuentran la paz.</p>
+          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
 
-    <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Five night at freddys 1 <span class="text-muted">TRAILER</span></h2>
-        <p class="lead">fecha de lanzamiento:8 de agosto de 2014</p>
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Five night at freddys 1 <span class="text-muted">TRAILER</span></h2>
+          <p class="lead">fecha de lanzamiento:8 de agosto de 2014</p>
+        </div>
+        <div class="col-md-5 d-flex justify-content-center align-items-center">
+          <video
+            src="../imagenes/Five Nights at Freddy's.mp4"
+            class="img-fluid rounded"
+            width="500"
+            autoplay
+            muted
+            loop
+            playsinline
+            controls
+          ></video>
+        </div>
       </div>
-      <div class="col-md-5">
-        <video width="500" height="500" class="mx-auto d-block" controls>
-          <source src="../imagenes/Five Nights at Freddy's.mp4" type="video/mp4">
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Five night at freddys 2 <span class="text-muted">TRAILER</span></h2>
+          <p class="lead">fecha de lanzamiento:11 de noviembre de 2014</p>
+        </div>
+        <div class="col-md-5 d-flex justify-content-center align-items-center">
+          <video
+            src="../imagenes/Five Nights at Freddy's 2 Trailer.mp4"
+            class="img-fluid rounded"
+            width="500"
+            autoplay
+            muted
+            loop
+            playsinline
+            controls
+          ></video>
+        </div>
       </div>
-    </div>
 
-    <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Five night at freddys 2 <span class="text-muted">TRAILER</span></h2>
-        <p class="lead">fecha de lanzamiento:11 de noviembre de 2014</p>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Five night at freddys 3 <span class="text-muted">TRAILER</span></h2>
+          <p class="lead">fecha de lanzamiento:2 de marzo de 2015</p>
+        </div>
+        <div class="col-md-5">
+          <video width="500" height="500" class="mx-auto d-block" controls>
+            <source src="../imagenes/videoplayback.mp4" type="video/mp4">
+
+        </div>
       </div>
-      <div class="col-md-5 order-md-1">
-        <video width="500" height="500" class="mx-auto d-block" controls>
-          <source src="../imagenes/Five Nights at Freddy's 2 Trailer.mp4" type="video/mp4">
-      </div>
-    </div>
 
-    <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Five night at freddys 3 <span class="text-muted">TRAILER</span></h2>
-        <p class="lead">fecha de lanzamiento:2 de marzo de 2015</p>
-      </div>
-      <div class="col-md-5">
-        <video width="500" height="500" class="mx-auto d-block" controls>
-          <source src="../imagenes/videoplayback.mp4" type="video/mp4">
+      <!-- /END THE FEATURETTES -->
 
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
+    </div><!-- /.container -->
 
 
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
-</main>
+    
+  </main>
 
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-      
-  </body>
+
+</body>
+
 </html>
