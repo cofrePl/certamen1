@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Open Sans", sans-serif;
+    background-color: rgb(124, 6, 6);
+    margin: 5%;
+    line-height: 1.6;
+}
+
+main{max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow:0 0 10px ;
+}
+
+header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url('./img/fondo.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+header figure img{
+    border-radius: 50%;
+    border: 5px solid rgb(71, 6, 11);
+    box-shadow: 0 0 10px rgb(82, 40, 10);
+}
+
+header h1{
+    font-size: 1.5cm;
+    opacity: 10px;
+}
+
+header h2{
+    font-family: 1.2em;
+    opacity: 0.7;
+}
+
+.container{
+    background-color: rgba(44, 2, 2, 0.575);
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contenedor_foto_perfil{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px wheat;
+    margin: 5%;
+    box-shadow: 0 0 20px black;
+}
+
+.contenedor_foto_perfil img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cabezera{
+    position: relative;
+}
+
+.nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: rgba(14,16,26,0.1)
+}
+
+section{
+    background-color: rgba(185, 181, 175, 0.788);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+section hr{
+    border: 0;
+    height: 2px;
+    background: cyan;
+    margin: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 5px 0;
+}
+
+i{
+    color: aqua;
+    margin-right: 8px;
+}
+
+address p{
+    margin: 5px;
+}
+
+address a {
+    color: #0ebaba;
+    text-decoration: none;
+}
+
+article{
+    margin-bottom: 5px 0;
+}
